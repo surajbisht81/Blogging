@@ -1,0 +1,70 @@
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    padding: 20px;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup > button{
+    margin: 20px 0;
+    padding: 6px 10px;
+    font-weight: 700;
+    line-height: 1.4rem;
+    background-color: #F7CAC9;
+    border-radius: 6px;
+    border: none;
+}
+
+.signup > button:hover{
+    cursor: pointer;
+    background-color: gold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup > .main__body{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.signup > .main__body > h1{
+    margin: 20px auto;
+    font-size: 44px;
+}
+
+.signup > .main__body #item{
+    margin: 0 auto;
+}
+
+.signup > .main__body > #image__div{
+    display: flex;
+}
+
+.signup > .main__body > #image__div > button{
+    width: fit-content;
+    margin: 20px auto;
+    padding: 8px 10px;
+    font-weight: 600;
+    border: 0.5px solid grey;
+    /* flex: 0.9; */
+}
+
+.signup > .main__body > #image__div > button:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup > .main__body > #image__div{
+    display: flex;
+    align-items: center;
+}
+
+.signup > .main__body > #image__div > img{
+    height: 32px;
+    width: 40px;
+    margin-right: -232.5px;
+    /* align-items: center; */
+}

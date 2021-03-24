@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+}
+
+.app > .border{
+  background-color: grey;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #A9A9A9;
+}
+
+.upper__part{
+  display: flex;
+  align-items: center;
+}
+
+.upper__part > h1{
+  flex: 0.9;
+  font-size: 55px;
+}
+
+.app > .views__part{
+  background-color: #e2e9e2;
+  width: fit-content;
+  padding: 2px 4px;
+  font-weight: 500;
+
+}
+
+.upper__part > button{
+  margin-right: 10px;
+  background-color: #2f4f4f;
+  color: white;
+  padding: 2px 4px;
+}
+
+.upper__part > button:hover{
+  cursor: pointer;
+}
+
+.views__part{
+  margin: 10px 0;
+}
+
+.button__part{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.button__part > button{
+  margin: 10px 30px;
+  background-color: #2f4f4f;
+  color: white;
+  padding: 5px;
+}
+
+/* second blog */
+
+
+.second__blog{
+  display: flex;
+  background-color: #ccffff;
+  margin: 10px 0;
+}
+
+.second__blog > .second__blog__left{
+  flex: 0.6;
+  padding: 40px;
+}
+
+.second__blog > .second__blog__left > h1{
+    margin-bottom: 20px;
+}
+
+.second__blog > .second__blog__left > p{
+  opacity: 0.7;
+}
+
+.second__blog > img{
+  padding: 30px;
+  height: 200px;
+  width: 500px;
+}
